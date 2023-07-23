@@ -1,0 +1,12 @@
+// Section 1: Program to print your name
+const yourName = "Your Name";
+console.log("My name is: " + yourName);
+
+// Section 2: Program to convert hours to seconds
+function hoursToSeconds(hours) {
+  return hours * 3600; // 60 seconds * 60 minutes
+}
+
+const inputHours = 3; // You can change this value to test with different hours
+const seconds = hoursToSeconds(inputHours);
+console.log(inputHours + " hours is equal to " + seconds + " seconds.");

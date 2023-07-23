@@ -1,0 +1,8 @@
+function dollarsToShekels(dollars) {
+  const exchangeRate = 3.6;
+  return dollars * exchangeRate;
+}
+
+const inputDollars = 10; // You can change this value to test with different dollars
+const shekels = dollarsToShekels(inputDollars);
+console.log(inputDollars + " dollars is equal to " + shekels + " shekels.");
